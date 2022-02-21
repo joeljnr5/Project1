@@ -129,7 +129,7 @@ h3{
     gap: 5px;
 font-family: Graphik,sans-serif;
 }
-h2{
+.red{
     text-align: left;
     font-family: 50px TNW Avalon,sans-serif;
     letter-spacing: -.025em;
@@ -196,10 +196,7 @@ h1{
     
 }
 .text{
-    text-align: center;
-}
-h2{
-    text-align: center;
+    text-align:center;
 }
 .form{
     align-items: center;
@@ -252,6 +249,16 @@ h4{
     font-size: 1.125rem;
     margin-top: 1.5rem;
 }
+.open{
+    display: flex;
+    margin-right: 13rem;
+    padding-top: 4rem;
+}
+.close{
+    display: flex;
+    margin-right: 13rem;
+    padding-top: 4rem;
+}
 .grid1{
     margin-left: 50rem;
     grid-template-columns: 2px;
@@ -269,7 +276,7 @@ h4{
     padding-top: 2rem;
 }
 h2{
-    margin-right: 50rem;
+    text-align: center;
 }
 h6{
  color: #c09;
